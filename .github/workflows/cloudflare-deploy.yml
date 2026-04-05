@@ -1,6 +1,9 @@
 name: Deploy to Cloudflare
 
 on:
+  push:
+    braches:
+      - main
   workflow_dispatch:
 
 concurrency:
